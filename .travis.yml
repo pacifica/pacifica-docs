@@ -1,0 +1,6 @@
+language: python
+python:
+  - "2.7"
+script:
+  - pylint --rcfile=pylintrc sphinx/*.py
+  - make -C sphinx html

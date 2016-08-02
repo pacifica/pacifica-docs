@@ -46,7 +46,7 @@ help:
 
 .PHONY: clean
 clean:
-	rm -rf $(BUILDDIR)/* metadata.*rst
+	rm -rf $(BUILDDIR)/* metadata.*rst cart.*rst
 
 .PHONY: html
 html:
