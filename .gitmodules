@@ -1,0 +1,3 @@
+[submodule "sphinx/github-pages"]
+	path = sphinx/github-pages
+	url = git@github.com:pacifica/pacifica.github.io.git
