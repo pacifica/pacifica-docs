@@ -69,3 +69,19 @@
 
 2.  The system must issue requests to the cart for data that's been
     validated by the upload and ingest systems.
+
+## Authorization and Authentication
+
+1.  The system must support any kind of authenticator provided by the
+    installation site.
+
+1.  The system must be able to query metadata to utilize custom
+    authorization mechanisms.
+
+## Search and Discovery
+
+1.  The system must use the metadata in the system to provide a
+    dynamic search interface that changes as the metadata changes.
+
+1.  The system must issue requests to the cart for data that's been
+    validated by the upload and ingest systems.

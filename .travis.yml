@@ -7,7 +7,7 @@ env:
 script:
   - pylint --rcfile=pylintrc sphinx/*.py
   - make -C sphinx html
-  - find -name '*.md' -exec /tmp/node.js/node-v4.4.7-linux-x64/bin/node /tmp/node.js/node_modules/remark-cli/cli.js {} -u remark-lint --frail \;
+  - find -name '*.md' | grep -v 'node_modules' | xargs -n 1 -I '{}' /tmp/node.js/node-v4.4.7-linux-x64/bin/node ./node_modules/remark-cli/cli.js {} -u remark-lint --frail
 # Handle git submodules yourself
 git:
   submodules: false
@@ -23,5 +23,5 @@ before_install:
  - mkdir node.js
  - cd node.js
  - curl -L https://nodejs.org/dist/v4.4.7/node-v4.4.7-linux-x64.tar.xz | tar -xJf -
- - ./node-v4.4.7-linux-x64/bin/npm install remark-cli remark-lint
  - popd
+ - /tmp/node.js/node-v4.4.7-linux-x64/bin/npm install remark-cli remark-lint

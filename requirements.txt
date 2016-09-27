@@ -6,3 +6,4 @@ pycurl
 celery
 psutil
 cherrypy
+dateutils
