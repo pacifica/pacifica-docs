@@ -9,3 +9,4 @@ cherrypy
 dateutils
 requests
 httpretty
+django<2

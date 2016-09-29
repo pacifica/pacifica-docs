@@ -16,6 +16,11 @@ except KeyError, ex:
 PACIFICA_PATHS = """
 metadata
 cartd
+archiveinterface
+ingest
+policy
+uniqueid
+uploader
 """.split()
 PATHS = [join(ROOT, d) for d in PACIFICA_PATHS if isdir(join(ROOT, d))]
 for d in PATHS:

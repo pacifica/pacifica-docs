@@ -46,13 +46,11 @@ help:
 
 .PHONY: clean
 clean:
-	rm -rf $(BUILDDIR)/* metadata.*rst cart.*rst
+	rm -rf $(BUILDDIR)/*
 
 .PHONY: html
 html:
 	ln -fs ../github-pages/ _build/html
-	python gen-metadata.rst.py
-	python gen-cart.rst.py
 	$(SPHINXBUILD) -b html $(ALLSPHINXOPTS) $(BUILDDIR)/html
 	@echo
 	@echo "Build finished. The HTML pages are in $(BUILDDIR)/html."
