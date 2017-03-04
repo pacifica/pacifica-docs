@@ -8,6 +8,6 @@
 
 ### Check List
 
-- [ ] All tests pass. See <https://github.com/pacifica/pacifica-docs/blob/master/development/TESTING.MD>
+- [ ] All tests pass. See <https://github.com/pacifica/pacifica-docs/blob/master/development/TESTING.md>
 - [ ] New functionality includes testing.
 - [ ] New functionality has been documented in the README if applicable
