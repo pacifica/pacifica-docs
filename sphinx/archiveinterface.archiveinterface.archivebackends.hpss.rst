@@ -5,7 +5,3 @@ Archivebackends HPSS Module
    :members:
    :private-members:
 
-.. automodule:: archiveinterface.archivebackends.hpss.id2filename
-   :members:
-   :private-members:
-

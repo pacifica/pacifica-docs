@@ -32,3 +32,7 @@ Contents:
    :members:
    :private-members:
 
+.. automodule:: archiveinterface.id2filename
+   :members:
+   :private-members:
+

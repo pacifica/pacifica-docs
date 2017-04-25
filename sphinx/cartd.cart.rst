@@ -2,6 +2,12 @@
 Cart Module
 **************************************************************
 
+Contents:
+
+.. toctree::
+   :maxdepth: 2
+
+   cartd.cart.test
 
 .. automodule:: cart.archive_requests
    :members:
@@ -24,11 +30,6 @@ Cart Module
 
 
 .. automodule:: cart.cart_orm
-   :members:
-   :private-members:
-
-
-.. automodule:: cart.cart_unit_tests
    :members:
    :private-members:
 
