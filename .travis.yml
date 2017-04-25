@@ -10,7 +10,7 @@ before_install:
  - sed -i 's/git@github.com:/https:\/\/github.com\//' .gitmodules
  - git submodule update --init
  - mkdir /tmp/node.js
- - cd /tmp/node.js
+ - pushd /tmp/node.js
  - curl -L https://nodejs.org/dist/v4.4.7/node-v4.4.7-linux-x64.tar.xz | tar -xJf -
  - popd
  - /tmp/node.js/node-v4.4.7-linux-x64/bin/npm install remark-cli remark-lint
