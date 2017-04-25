@@ -57,7 +57,7 @@ def process_module(rootpath, modulepath):
         mod_nice_name.append(new_nice_name)
     mod_nice_name = [x[0].upper()+x[1:] for x in mod_nice_name]
     new_nice_name = ' '.join(mod_nice_name)
-    if len(mods_to_process) or len(pys_to_process):
+    if mods_to_process or pys_to_process:
         new_file = open("%s.rst"%(rel_mod_path.replace(sep, '.')), "w")
         new_file.write("""
 %s Module
@@ -65,7 +65,7 @@ def process_module(rootpath, modulepath):
 
 """%(new_nice_name))
 
-        if len(mods_to_process):
+        if mods_to_process:
             new_file.write("""
 Contents:
 
