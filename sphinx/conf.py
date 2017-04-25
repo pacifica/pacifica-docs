@@ -20,7 +20,7 @@ archiveinterface
 ingest
 policy
 uniqueid
-uploader
+policy
 """.split()
 PATHS = [join(ROOT, d) for d in PACIFICA_PATHS if isdir(join(ROOT, d))]
 for d in PATHS:

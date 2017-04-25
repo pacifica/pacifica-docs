@@ -12,4 +12,3 @@ Contents:
    ingest
    policy
    uniqueid
-   uploader
