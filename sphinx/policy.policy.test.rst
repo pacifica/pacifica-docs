@@ -3,10 +3,6 @@ Test Module
 **************************************************************
 
 
-.. automodule:: policy.test.test_common
-   :members:
-   :private-members:
-
 .. automodule:: policy.test.test_connect
    :members:
    :private-members:
