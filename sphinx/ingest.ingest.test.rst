@@ -3,12 +3,15 @@ Ingest Backend Module
 **************************************************************
 
 
-.. automodule:: ingest_backend.celery
+.. automodule:: ingest.test.test_ingest
    :members:
    :private-members:
 
+.. automodule:: ingest.test.test_upload
+   :members:
+   :private-members:
 
-.. automodule:: ingest_backend.celery_utils
+.. automodule:: ingest.test.test_utils
    :members:
    :private-members:
 

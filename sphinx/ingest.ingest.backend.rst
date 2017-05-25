@@ -1,26 +1,17 @@
 
-Ingest Project
+Ingest Backend Module
 **************************************************************
 
 
-Contents:
-
-.. toctree::
-   :maxdepth: 2
-
-   ingest.ingest
-
-.. automodule:: DatabaseCreate
+.. automodule:: ingest.backend.celery_ingest
    :members:
    :private-members:
 
-
-.. automodule:: IngestServer
+.. automodule:: ingest.backend.celery_utils
    :members:
    :private-members:
 
-
-.. automodule:: settings
+.. automodule:: ingest.backend.tasks
    :members:
    :private-members:
 
