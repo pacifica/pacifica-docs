@@ -36,3 +36,7 @@ Contents:
    :members:
    :private-members:
 
+.. automodule:: archiveinterface.wsgi
+   :members:
+   :private-members:
+

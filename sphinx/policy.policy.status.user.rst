@@ -1,14 +1,12 @@
 
-MyEmslUpload Module
+Policy Module
 **************************************************************
 
-
-.. automodule:: MyEmslUpload.settings
+.. automodule:: policy.status.user.lookup
    :members:
    :private-members:
 
-
-.. automodule:: MyEmslUpload.wsgi
+.. automodule:: policy.status.user.search
    :members:
    :private-members:
 

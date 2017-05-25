@@ -1,5 +1,5 @@
 
-Uploader Module
+Policy Module
 **************************************************************
 
 
@@ -8,9 +8,9 @@ Contents:
 .. toctree::
    :maxdepth: 2
 
-   policy.policy.uploader.test
+   policy.policy.reporting.transaction
 
-.. automodule:: policy.uploader.rest
+.. automodule:: policy.reporting.rest
    :members:
    :private-members:
 

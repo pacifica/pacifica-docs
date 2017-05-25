@@ -3,17 +3,17 @@ Test Module
 **************************************************************
 
 
-.. automodule:: metadata.elastic.test.api
+.. automodule:: metadata.elastic.test.test_api
    :members:
    :private-members:
 
 
-.. automodule:: metadata.elastic.test.base
+.. automodule:: metadata.elastic.test.test_base
    :members:
    :private-members:
 
 
-.. automodule:: metadata.elastic.test.elastic
+.. automodule:: metadata.elastic.test.test_elastic
    :members:
    :private-members:
 

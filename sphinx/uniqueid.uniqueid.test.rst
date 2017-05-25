@@ -1,14 +1,15 @@
 
-Ingest Backend Module
+UniqueID Test Module
 **************************************************************
 
 
-.. automodule:: ingest_backend.celery
+.. automodule:: uniqueid.test.test_server
    :members:
    :private-members:
 
 
-.. automodule:: ingest_backend.celery_utils
+.. automodule:: uniqueid.test.test_uniqueid
    :members:
    :private-members:
+
 

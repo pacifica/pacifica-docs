@@ -1,19 +1,22 @@
 
-Uniqueid Project
+UniqueID Project
 **************************************************************
 
 
-.. automodule:: index_server_orm
+Contents:
+
+.. toctree::
+   :maxdepth: 2
+
+   uniqueid.uniqueid
+
+.. automodule:: DatabaseCreate
    :members:
    :private-members:
 
 
-.. automodule:: index_server_unit_tests
+.. automodule:: UniqueIDServer
    :members:
    :private-members:
 
-
-.. automodule:: index_server_utils
-   :members:
-   :private-members:
 

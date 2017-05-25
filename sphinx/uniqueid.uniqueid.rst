@@ -1,5 +1,5 @@
 
-Ingest Project
+UniqueID Module
 **************************************************************
 
 
@@ -8,19 +8,15 @@ Contents:
 .. toctree::
    :maxdepth: 2
 
-   ingest.ingest
+   uniqueid.uniqueid.test
 
-.. automodule:: DatabaseCreate
+.. automodule:: uniqueid.orm
    :members:
    :private-members:
 
 
-.. automodule:: IngestServer
+.. automodule:: uniqueid.utils
    :members:
    :private-members:
 
-
-.. automodule:: settings
-   :members:
-   :private-members:
 

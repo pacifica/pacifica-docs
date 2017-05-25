@@ -1,9 +1,9 @@
 
-Templatetags Module
+Policy Module
 **************************************************************
 
 
-.. automodule:: home.templatetags.app_filters
+.. automodule:: policy.ingest.test.test_ingest
    :members:
    :private-members:
 

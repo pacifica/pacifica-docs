@@ -1,26 +1,16 @@
 
-Ingest Project
+Policy Module
 **************************************************************
 
-
-Contents:
-
-.. toctree::
-   :maxdepth: 2
-
-   ingest.ingest
-
-.. automodule:: DatabaseCreate
+.. automodule:: policy.status.proposal.by_user
    :members:
    :private-members:
 
-
-.. automodule:: IngestServer
+.. automodule:: policy.status.proposal.lookup
    :members:
    :private-members:
 
-
-.. automodule:: settings
+.. automodule:: policy.status.proposal.search
    :members:
    :private-members:
 

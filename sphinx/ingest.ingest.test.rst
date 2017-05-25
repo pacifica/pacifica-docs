@@ -1,26 +1,17 @@
 
-Ingest Project
+Ingest Backend Module
 **************************************************************
 
 
-Contents:
-
-.. toctree::
-   :maxdepth: 2
-
-   ingest.ingest
-
-.. automodule:: DatabaseCreate
+.. automodule:: ingest.test.test_ingest
    :members:
    :private-members:
 
-
-.. automodule:: IngestServer
+.. automodule:: ingest.test.test_upload
    :members:
    :private-members:
 
-
-.. automodule:: settings
+.. automodule:: ingest.test.test_utils
    :members:
    :private-members:
 

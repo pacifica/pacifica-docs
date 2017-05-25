@@ -1,24 +1,16 @@
 
-App Module
+Policy Module
 **************************************************************
 
-
-.. automodule:: app.forms
+.. automodule:: policy.status.transaction.files
    :members:
    :private-members:
 
-
-.. automodule:: app.models
+.. automodule:: policy.status.transaction.lookup
    :members:
    :private-members:
 
-
-.. automodule:: app.tests
-   :members:
-   :private-members:
-
-
-.. automodule:: app.views
+.. automodule:: policy.status.transaction.search
    :members:
    :private-members:
 
