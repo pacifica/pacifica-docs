@@ -32,7 +32,7 @@ Cartd Project Tests
    :private-members:
 
 
-.. automodule:: cart.test.test_cart_globals
+.. automodule:: cart.test.test_env_globals
    :members:
    :private-members:
 
