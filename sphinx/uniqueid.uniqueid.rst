@@ -1,5 +1,5 @@
 
-UniqueID Project
+UniqueID Module
 **************************************************************
 
 
@@ -8,14 +8,14 @@ Contents:
 .. toctree::
    :maxdepth: 2
 
-   uniqueid.uniqueid
+   uniqueid.uniqueid.test
 
-.. automodule:: DatabaseCreate
+.. automodule:: uniqueid.orm
    :members:
    :private-members:
 
 
-.. automodule:: UniqueIDServer
+.. automodule:: uniqueid.utils
    :members:
    :private-members:
 
