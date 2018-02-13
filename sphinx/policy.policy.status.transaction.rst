@@ -1,5 +1,5 @@
 
-Policy Module
+Policy Status Transaction Module
 **************************************************************
 
 .. automodule:: policy.status.transaction.files
