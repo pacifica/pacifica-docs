@@ -1,5 +1,5 @@
 
-Policy Module
+Policy Reporting Transaction Module
 **************************************************************
 
 .. automodule:: policy.reporting.transaction.query_base
