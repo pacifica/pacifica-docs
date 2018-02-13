@@ -1,4 +1,4 @@
-Archivebackends Module
+Archiveinterface Tests Module
 =============================================
 
 Contents:
