@@ -1,6 +1,9 @@
 # Python PIP Install Instructions
 
-Pacifica is highly recommended to use virtual environments to install manually.
+Pacifica is highly recommended to use 
+(Python Virtual Environments)[http://docs.python-guide.org/en/latest/dev/virtualenvs]
+to install the services. The services can be installed in different virtual environments or
+a single virtual environment.
 
 ## Install Software Dependencies
 
@@ -83,6 +86,8 @@ For Redhat bases systems you should follow the Elasticsearch
 
 Install Python for your platform most Linux systems have this done already.
 Windows users should get it [here](https://www.python.org/downloads/).
+It is recommended to use Python 2.7 for compatibility reasons.
+Moving to Python 3 is on our list of things to do but isn't fully tested yet.
 
 ```
 yum -y install python python-pip python-virtualenv
@@ -117,6 +122,8 @@ git+https://github.com/pacifica/pacifica-uniqueid.git#egg=PacificaUniqueID
 git+https://github.com/pacifica/pacifica-ingest.git#egg=PacificaIngest
 git+https://github.com/pacifica/pacifica-cartd.git#egg=PacificaCartd
 git+https://github.com/pacifica/pacifica-proxy.git#egg=PacificaProxy
+git+https://github.com/pacifica/pacifica-python-uploader.git#egg=PacificaUploader
+git+https://github.com/pacifica/pacifica-cli-uploader.git#egg=PacificaCLIUploader
 ```
 
 Then run pip the with the requirements file.
@@ -146,4 +153,33 @@ IngestServer &
 CartServer &
 celery -A cart worker -l info &
 celery -A ingest.backend worker -l info &
+```
+
+# Verification
+
+Load the representative data set from the Pacifica Metadata project to verify the system is working.
+
+```
+git clone https://github.com/pacifica/pacifica-metadata.git
+cd pacifica-metadata
+python -m test_files.loadit
+```
+
+This will load up examples of objects into the metadata service so you can query them.
+Use the documented 
+[Metadata API](https://github.com/pacifica/pacifica-metadata/blob/master/README.md)
+to inspect the uploaded data.
+
+```
+curl http://localhost:8121/users
+```
+
+Try performing an upload from the CLI to verify ingest of data.
+See more examples of how to use the CLIUploader from the 
+[Pacifica CLI Uploader](https://github.com/pacifica/pacifica-cli-uploader/blob/master/README.md)
+repository.
+
+```
+CLIUploader configure
+CLIUploader upload README.md
 ```
