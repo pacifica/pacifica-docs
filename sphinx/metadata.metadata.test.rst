@@ -1,21 +1,15 @@
 
-Ingest Project
+Metadata Test Module
 **************************************************************
 
 
 Contents:
 
-.. toctree::
-   :maxdepth: 2
-
-   ingest.ingest
-
-.. automodule:: DatabaseCreate
+.. automodule:: metadata.test.test_admin
    :members:
    :private-members:
 
-
-.. automodule:: IngestServer
+.. automodule:: metadata.test.test_client
    :members:
    :private-members:
 

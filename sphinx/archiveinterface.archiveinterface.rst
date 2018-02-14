@@ -7,6 +7,7 @@ Contents:
    :maxdepth: 2
 
    archiveinterface.archiveinterface.archivebackends
+   archiveinterface.archiveinterface.tests
 
 .. automodule:: archiveinterface.archivebackends
    :members:
@@ -21,10 +22,6 @@ Contents:
    :private-members:
 
 .. automodule:: archiveinterface.archive_interface_responses
-   :members:
-   :private-members:
-
-.. automodule:: archiveinterface.archive_interface_unit_tests
    :members:
    :private-members:
 

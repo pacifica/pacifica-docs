@@ -1,5 +1,5 @@
 
-Policy Module
+Policy Status User Module
 **************************************************************
 
 .. automodule:: policy.status.user.lookup

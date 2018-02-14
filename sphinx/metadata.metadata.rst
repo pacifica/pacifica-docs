@@ -11,13 +11,9 @@ Contents:
    metadata.metadata.elastic
    metadata.metadata.orm
    metadata.metadata.rest
+   metadata.metadata.test
 
 .. automodule:: metadata.client
-   :members:
-   :private-members:
-
-
-.. automodule:: metadata.test_client
    :members:
    :private-members:
 

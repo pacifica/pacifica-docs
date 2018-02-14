@@ -15,7 +15,12 @@ Contents:
    :private-members:
 
 
-.. automodule:: uniqueid.utils
+.. automodule:: uniqueid.rest
+   :members:
+   :private-members:
+
+
+.. automodule:: uniqueid.globals
    :members:
    :private-members:
 

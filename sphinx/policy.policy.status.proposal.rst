@@ -1,5 +1,5 @@
 
-Policy Module
+Policy Status Proposal Module
 **************************************************************
 
 .. automodule:: policy.status.proposal.by_user
