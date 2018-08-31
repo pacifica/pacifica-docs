@@ -1,8 +1,11 @@
 pylint
-Sphinx
+recommonmark
+sphinx
 sphinx_rtd_theme
-peewee
+peewee<3
 pycurl
+pytest
+mock
 celery
 psutil
 cherrypy

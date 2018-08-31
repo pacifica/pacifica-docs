@@ -35,7 +35,10 @@ extensions = [
     'sphinx.ext.githubpages',
 ]
 templates_path = ['_templates']
-source_suffix = '.rst'
+source_suffix = ['.rst', '.txt', '.md']
+#source_parsers = {
+#    '.md': 'recommonmark.parser.CommonMarkParser',
+#}
 master_doc = 'index'
 project = u'Pacifica'
 # pylint: disable=redefined-builtin
