@@ -1,16 +1,5 @@
-language: python
-python:
-  - "2.7"
+language: node
+dist: xenial
+install: npm install remark-cli remark-lint
 script:
-  - pylint --rcfile=pylintrc sphinx/*.py
-  - find -name '*.md' | grep -v 'node_modules' | xargs -n 1 -I '{}' /tmp/node.js/node-v4.4.7-linux-x64/bin/node ./node_modules/remark-cli/cli.js {} -u remark-lint --frail
-git:
-  submodules: false
-before_install:
- - sed -i 's/git@github.com:/https:\/\/github.com\//' .gitmodules
- - git submodule update --init
- - mkdir /tmp/node.js
- - pushd /tmp/node.js
- - curl -L https://nodejs.org/dist/v4.4.7/node-v4.4.7-linux-x64.tar.xz | tar -xJf -
- - popd
- - /tmp/node.js/node-v4.4.7-linux-x64/bin/npm install remark-cli remark-lint
+  - find -name '*.md' | grep -v 'node_modules' | xargs -n 1 -I '{}' node ./node_modules/remark-cli/cli.js {} -u remark-lint --frail
