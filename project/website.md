@@ -14,22 +14,24 @@ Pacifica supports the scientific data lifecycle.
 ### Data Management
 
 Scientific Data Management systems for research and development
-institutions require many solutions to already complex problems.
-Pacifica has solutions to manage data between projects that are
-completing and collaborative. Pacifica can accelerate the scientific
-process by making search and discovery tracta
+institutions need to provide uncomplicated solutions to meet 
+often complicated problems. Pacifica offers institutions a
+platform to collaboratively manage data between projects.
+Pacifica can accelerate the scientific process by making search
+and discovery tractable solutions.
 
 ### How to Solve it
 
-Open Source does not stop at releasing the source code. Many problems
-require community to share ideas, processes and support features to
-solve the requirements. This is the natural evolution of Open Source
-to Open Everything.
+Open source does not end with the release of the source code.
+Complex problems require the community to share ideas, processes,
+and support features to solve the requirements -- the evolution
+from open source, to open everything. Pacifica is governed by an
+open everything community.
 
 ### Impact
 
 Pacifica seeks to enable institutions to reduce risk while
-accelerating scientific impact of the data they produce. Pacifica has
-interfaces to allow scientists to automate workflow to ensure
+accelerating scientific impact for all its users. Pacifica has
+interfaces to allow scientists to automate workflow, improving
 quality and reuse of their research. Pacifica is open source and
 allows contributions from development and operator teams.
