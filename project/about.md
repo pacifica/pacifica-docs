@@ -79,16 +79,21 @@ meeting the policy must be addressed by the supporting institution.
 
 ### The Operating Model
 
-The operating model for research institutions is largely project based.
+Research institutions allocate and spend funds they recieve in different
+ways. Whatever that model is, data is created at every level of the
+model. Hense, it is important to capture the funding model and the
+relationships to data the internally, Pacifica can fill that requirement.
+
+#### The Project Operating Model
+
 Projects have many properties, each bounded depending on the institutions
 needs. The properties include: dollar amount, hours, resources, funding
 chain, authority to operate, scope, etc.
 
-While a project operating model reflects the how an organization parses out
-project funds, it does not reflect the evolution of scientific data. In
+However, projects do not reflect the evolution of scientific data. In
 order to understand what data were created within the full project scope,
 including related projects and sub-tasks, a system needs to be integrated
-in the project from initiation to end. Pacifica can fill that requirement.
+in the project from initiation to end.
 
 ### The Scientific Data Life-Cycle
 
