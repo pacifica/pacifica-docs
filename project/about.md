@@ -17,7 +17,7 @@ Environmental Research ([BER](https://www.energy.gov/science/ber/biological-and-
 Pacifica was created by EMSL and PNNL in response to 
 [DOE Data Management Policy](https://www.energy.gov/datamanagement/doe-policy-digital-research-data-management)
 to manage open research data to make it more transparent. EMSL and
-PNNL both have similar administrative problems in that a single
+PNNL both have similar administrative challenges in that a single
 project can not shoulder the burden of meeting the policy on its
 own. This brought both EMSL and PNNL to the table to collaborate on
 developing an institutional data management system for open research
